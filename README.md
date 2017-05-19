@@ -1,6 +1,4 @@
-# [romainroy.fr](http://www.romainroy.fr/)
-
-Ma page web perso
+# [Ma page web perso](http://www.romainroy.fr/)
 
 Vous pouvez y trouver :
 * Mes projets
