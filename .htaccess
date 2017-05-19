@@ -1,0 +1,9 @@
+ErrorDocument 301 /errors/301-moved_permanently.php
+ErrorDocument 302 /errors/302-moved_temporarily.php
+ErrorDocument 400 /errors/400-bad_request.php
+ErrorDocument 401 /errors/401-authorization_required.php
+ErrorDocument 403 /errors/403-forbidden.php
+ErrorDocument 404 /errors/404-not_found.php
+ErrorDocument 405 /errors/405-method_not_allowed.php
+ErrorDocument 500 /errors/500-internal_server_error.php
+ErrorDocument 505 /errors/505-http_version_not_supported.php
