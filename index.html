@@ -38,7 +38,7 @@
         <div class="container">
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Basculer l'affichage</span> Menu <i class="fa fa-bars"></i>
+                    <span class="sr-only"></span> Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand" href="#page-top">Romain Roy</a>
             </div>
@@ -46,6 +46,9 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="blog/">Blog</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#portfolio">Projets</a>
@@ -114,8 +117,23 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/dash-goat.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/algo-genetique.png" class="img-responsive" alt="">
                     </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/tps.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <span class="portfolio-link" data-toggle="modal">
+                        <img src="img/portfolio/coming-soon.png" class="img-responsive" alt="">
+                    </span>
                 </div>
             </div>
         </div>
@@ -131,10 +149,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
+                <div class="col-lg-4 col-lg-offset-2 justifie">
                     <p>Après l'obtention en 2014 d'un bac S avec la spécialité informatique, j'ai rejoint l'IUT informatique de l'Université Paul Sabatier à Toulouse où j'ai obtenu mon diplôme (Bac +2) en 2016.</p>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 justifie">
                     <p>Je poursuis maintenant mes études en Licence informatique dans la même université, avec pour objectif de travailler dans le domaine des jeux vidéo et des médias interactifs numériques.</p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -167,8 +185,8 @@
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Adresse mail</label>
-                                <input type="email" class="form-control" placeholder="Adresse mail" id="email" required data-validation-required-message="Veuillez saisir votre adresse mail">
+                                <label>Adresse e-mail</label>
+                                <input type="email" class="form-control" placeholder="Adresse e-mail" id="email" required data-validation-required-message="Veuillez saisir votre adresse e-mail">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -232,7 +250,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; romainroy.fr 2017
+                        Copyright &copy; romainroy.fr 2018
                     </div>
                 </div>
             </div>
@@ -326,20 +344,57 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
+                            <h2>Projet de Mathématiques liées à l’informatique</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/algo-genetique.png" class="img-responsive img-centered" alt="">
+                            <p>Pour un projet de mathématiques à l'IUT informatique, nous avons dû choisir entre plusieurs sujets faisant tous appel à des notions informatique pour être résolus. Notre choix s'est porté sur la résolution du <a href="https://fr.wikipedia.org/wiki/Probl%C3%A8me_du_voyageur_de_commerce" target="_blank">problème du voyageur de commerce</a> par <a href="https://fr.wikipedia.org/wiki/Algorithme_g%C3%A9n%C3%A9tique" target="_blank">algorithmes génétiques</a>. L'exécution du programme est suivie à l'aide d'une interface graphique où chaque point représente une des 250 villes par lesquelles le voyageur de commerce doit passer, et en rouge le chemin qui est testé.</p>
+                            <a href="files/algorithme-genetique.zip" class="btn btn-lg btn-outline-custom">
+                                <i class="fa fa-download"></i> Télécharger l'exécutable
+                            </a>
+                            <p>Nécessite un JRE pour fonctionner.<br>Le fichier texte présent dans l'archive est nécessaire au fonctionnement du programme.</p>
+                            <ul class="list-inline item-details">
+                                <li>Date :
+                                    <strong> Automne 2015
+                                    </strong>
+                                </li>
+                                <li>Compétences :
+                                    <strong>Optimisation, Compléxité
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
                             <h2>Jeu de plates-formes</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/dash-goat.png" class="img-responsive img-centered" alt="">
-                            <p>Je suis actuellement inscrit à la Toulouse Pixel School où je suis un cours d'initiation à la création de jeux vidéo.<br>Le contenu du cours se base sur le développement d’un jeu de plates-formes sous Unity à partir d'un modèle existant, ce qui nous permet en plus d'apprendre l'utilisation des différents outils, à comprendre les bases de graphisme, level design, sound design et interface.</p>
-                            <p class="btn btn-lg btn-outline-custom">
-                                <i class="fa fa-download"></i> Bientôt disponible
-                            </p>
+                            <img src="img/portfolio/tps.png" class="img-responsive img-centered" alt="">
+                            <p>J'ai participé à la Toulouse Pixel School où à travers 13 séances j'ai été initié à la création de jeux vidéo.<br>Le contenu du cours était basé sur le développement d’un jeu de plates-formes sous Unity à partir d'un modèle existant, ce qui nous permet en plus d'apprendre l'utilisation des différents outils, à comprendre les bases de graphisme, level design, sound design et ergonomie.</p>
+                            <a href="files/tps-platformer/index.html" target="_blank" class="btn btn-lg btn-outline-custom">
+                                <i class="fa fa-download"></i> Essayer le jeu
+                            </a>
                             <ul class="list-inline item-details">
                                 <li>Date :
                                     <strong>Automne 2017
                                     </strong>
                                 </li>
                                 <li>Outils :
-                                    <strong>Unity, Aseprite, Bosca Ceoil
+                                    <strong>Unity, C#, Aseprite, Bosca Ceoil, Audacity
                                     </strong>
                                 </li>
                             </ul>

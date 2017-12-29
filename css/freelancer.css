@@ -531,3 +531,6 @@ fieldset[disabled] .btn-success.active {
     background: #18BC9C;
     border: solid 2px #18BC9C;
 }
+.justifie{
+    text-align: justify;
+}

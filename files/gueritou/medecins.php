@@ -33,7 +33,7 @@
 			// Connexion au serveur MySQL
             $server = "db609499257.db.1and1.com";
 			$login = "dbo609499257";
-			$mdp = "O0a(O3o-";
+			$mdp = "cactus42";
 			$db = "db609499257";
 			$link = mysqli_connect($server, $login, $mdp, $db) or die("Error ".mysqli_error($link));
 
