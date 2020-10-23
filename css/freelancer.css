@@ -9747,8 +9747,13 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+.about {
+  padding-bottom: 3rem;
+}
+
 .portfolio {
   margin-bottom: -30px;
+  padding-top: 3rem;
 }
 
 .portfolio .portfolio-item {
