@@ -1,3 +1,6 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
 ErrorDocument 301 /errors/301-moved_permanently.php
 ErrorDocument 302 /errors/302-moved_temporarily.php
 ErrorDocument 400 /errors/400-bad_request.php
